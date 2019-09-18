@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "45920531663",
+    "project_id": "screen-recorder-cefc5"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45920531663:android:6620f3e47205184a",
+        "android_client_info": {
+          "package_name": "record.mobile.screen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCWGg2fK4wWiWtQLVnQBiwcxvNlMHHQNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-90619073-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_resolution_entries">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>848x480</item>
+        <item>640x480</item>
+        <item>640x360</item>
+        <item>480x360</item>
+        <item>480x270</item>
+        <item>400x300</item>
+        <item>320x240</item>
+    </string-array>
+    <string-array name="setting_frame_rate_entries">
+        <item>60 FPS</item>
+        <item>50 FPS</item>
+        <item>48 FPS</item>
+        <item>30 FPS</item>
+        <item>25 FPS</item>
+        <item>24 FPS</item>
+    </string-array>
+    <string-array name="setting_bit_rate_entries">
+        <item>Auto</item>
+        <item>12 Mbps</item>
+        <item>8 Mbps</item>
+        <item>7.5 Mbps</item>
+        <item>5 Mbps</item>
+        <item>4 Mbps</item>
+        <item>2.5 Mbps</item>
+        <item>1.5 Mbps</item>
+        <item>1 Mbps</item>
+    </string-array>
+    <string-array name="setting_orientation_entries">
+        <item>Auto</item>
+        <item>Landscape</item>
+        <item>Porttrait</item>
+    </string-array>
+    <string-array name="setting_countdown_entries">
+        <item>1 second</item>
+        <item>2 second</item>
+        <item>3 second</item>
+        <item>4 second</item>
+        <item>5 second</item>
+        <item>6 second</item>
+        <item>7 second</item>
+        <item>8 second</item>
+        <item>9 second</item>
+        <item>10 second</item>
+    </string-array>
+
+    <!-- Define value -->
+    <string-array name="setting_resolution_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="setting_frame_rate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="setting_bit_rate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="setting_orientation_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="setting_countdown_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <array name="gr">
+        <item>@color/gr_p</item>
+        <item>@color/gr_orange</item>
+    </array>
+</resources>

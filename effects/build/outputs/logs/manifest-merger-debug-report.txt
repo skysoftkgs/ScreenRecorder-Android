@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:3:11-36
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:5:11-36
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:7:5-9:38
+	android:glEsVersion
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:8:13-45
+	android:required
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:9:13-36
+application
+ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml:11:5-32
+uses-sdk
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		ADDED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\ScreenRecorder\ScreenRecorder_2019-05-26\effects\src\main\AndroidManifest.xml

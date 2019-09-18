@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sim.ami.com.myapplication">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!--
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+        -->
+
+    <!--<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />-->
+   <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission> -->
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <application
+        android:name=".AppImpl"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_id"/>
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.my.package.name.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity
+            android:name=".TutorialActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".ChatHeadService" />
+
+        <activity
+            android:name=".Project"
+            android:autoRemoveFromRecents="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Setting"
+            android:excludeFromRecents="true"
+            android:label="@string/label_setting_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name=".GalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/lable_galerry_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGallery"
+
+        ></activity>
+        <activity
+            android:name="org.m4m.samples.ComposerCutActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/lable_cut_video"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name="org.m4m.samples.ComposerCutCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/lable_cut_video"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name="org.m4m.samples.ComposerVideoEffectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/label_video_effect"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name="org.m4m.samples.ComposerVideoEffectCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/label_video_effect"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name="org.m4m.samples.ComposerTimeScalingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/label_video_time_scaling"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity
+            android:name="org.m4m.samples.ComposerTimeScalingCoreActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/label_video_time_scaling"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" />
+        <activity android:name=".PopupActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+                  android:excludeFromRecents="true"
+                  android:theme="@style/DialogTheme"
+                  android:taskAffinity="com.screen.recorder.popup"
+        />
+
+        <service android:name=".RecordStartService">
+
+        </service>
+
+        <receiver
+            android:name=".RestartService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="RestartService" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="bd1f329f6b8b11c5f5533ae2752e104d4271b07f" />
+    </application>
+
+</manifest>

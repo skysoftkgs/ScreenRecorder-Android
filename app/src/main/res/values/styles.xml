@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:showDividers">beginning</item>
+        <item name="android:listDivider">@color/colorPrimary</item>
+        <item name="preferenceTheme">@style/PreferenceScreen</item>
+    </style>
+
+    <style name="AppThemeGallery" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FF69B4</item>
+
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:showDividers">beginning</item>
+        <item name="android:listDivider">@color/colorPrimary</item>
+        <item name="preferenceTheme">@style/PreferenceScreen</item>
+    </style>
+
+
+    <style name="AppTheme.White" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="PreferenceScreen" parent="@style/PreferenceThemeOverlay">
+        <item name="android:textColorSecondary">@color/videoSubtitleColor</item>
+        <item name="android:textColorPrimary">@color/videoTitleColor</item>
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item>
+        <item name="android:colorForeground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:divider">#000000</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:showDividers">beginning</item>
+        <item name="android:listDivider">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:divider">#000000</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:showDividers">beginning</item>
+        <item name="android:listDivider">@color/colorPrimary</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

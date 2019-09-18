@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_help_black_24dp" android:id="@+id/action_open_faq" android:orderInCategory="99" android:title="Help" android:showAsAction="always" />
+    <item android:id="@+id/action_rate_us" android:orderInCategory="100" android:title="Rate Now" app:showAsAction="collapseActionView" />
+    <item android:id="@+id/action_report_bug" android:orderInCategory="101" android:title="Contact Us" app:showAsAction="collapseActionView" />
+    <item android:id="@+id/action_share_app" android:orderInCategory="102" android:title="Share App" app:showAsAction="collapseActionView" />
+    <item android:id="@+id/action_credits" android:orderInCategory="103" android:title="Donate" app:showAsAction="collapseActionView" />
+    <item android:id="@+id/action_invite" android:orderInCategory="104" android:title="Invite Friend" app:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/ic_redeem_black_24dp" android:id="@+id/action_upgrade" android:orderInCategory="98" android:title="Donate" android:showAsAction="always" />
+</menu>

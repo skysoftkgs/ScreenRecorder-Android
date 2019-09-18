@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.szugyi:Android-CircleMenu:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-CircleMenu-2.0.0.aar/15b8ecb0415d9b3510c00d36f1bfe4b5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-CircleMenu-2.0.0.aar/15b8ecb0415d9b3510c00d36f1bfe4b5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.szugyi/Android-CircleMenu/2.0.0/d11f5bb5a27b77dc1bdb964808a745bf9f56d669/Android-CircleMenu-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

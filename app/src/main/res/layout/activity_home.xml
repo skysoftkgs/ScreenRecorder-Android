@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="TEXT1" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp">
+        <Button android:textSize="14sp" android:textColor="#80cbc4" android:id="@+id/btn_grant" android:background="#e5e5e5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="miui_grant" android:layout_alignParentEnd="true" />
+        <Button android:textSize="14sp" android:textColor="#80cbc4" android:id="@+id/btn_watch_video" android:background="#e5e5e5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="miui_tutorial" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

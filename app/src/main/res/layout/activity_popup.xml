@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+    >
+
+        <TextView android:id="@+id/txt_title"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:text="Record Finished"
+                  android:textSize="16sp"
+        />
+
+        <ImageButton android:id="@+id/exit"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentEnd="true"
+                     android:layout_centerVertical="true"
+                     android:background="@drawable/control_bar_buttons_touch_feedback"
+                     android:padding="8dp"
+                     android:src="@drawable/ic_clear_black_24dp"
+        />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="16dp"
+                  android:orientation="horizontal"
+    >
+        <TextView android:id="@+id/gallery"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/control_bar_buttons_touch_feedback"
+                  android:drawableTop="@drawable/ic_image_black_24dp"
+                  android:gravity="center_horizontal"
+                  android:padding="8dp"
+                  android:text="Gallerry"
+
+        />
+
+
+        <TextView android:id="@+id/share"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/control_bar_buttons_touch_feedback"
+                  android:drawableTop="@drawable/ic_menu_share"
+                  android:gravity="center_horizontal"
+                  android:padding="8dp"
+                  android:text="Share"
+
+        />
+
+        <TextView android:id="@+id/delete"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/control_bar_buttons_touch_feedback"
+                  android:drawableTop="@drawable/ic_image_black_24dp"
+                  android:gravity="center_horizontal"
+                  android:padding="8dp"
+                  android:text="Delete"
+
+        />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

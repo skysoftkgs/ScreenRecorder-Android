@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "151878052512",
+    "firebase_url": "https://screen-recorder-ce7a2.firebaseio.com",
+    "project_id": "screen-recorder-ce7a2",
+    "storage_bucket": "screen-recorder-ce7a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151878052512:android:8a48a29ead815ff1",
+        "android_client_info": {
+          "package_name": "app.dragon.screen.recorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151878052512-0akcntpe1s2npn7jpc2sr4rqfgaeqaa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO9txYxbMr7zeY2ASEUlzl_om_wSOpkl0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="sim.ami.com.myapplication.GalleryActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:scrollbars="vertical"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_no_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!--<com.cbr.gradienttextview.GradientTextView
+            android:id="@+id/textView_hola"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-150dp"
+            android:gravity="center"
+            android:lineHeight="25sp"
+            android:text="HOLA :)"
+            android:textAppearance="@style/AppTheme.TabText.White"
+            android:textSize="23sp"
+            app:gt_gradient_direction="right"
+            app:gt_color_list="@array/gr_po">
+        </com.cbr.gradienttextview.GradientTextView>-->
+
+        <!--<com.mursaat.extendedtextview.AnimatedGradientTextView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/textView_hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/hola"
+            android:textAppearance="@style/AppTheme"
+            android:textSize="20sp"
+            app:colors="@array/gr"
+            app:simultaneousColors="4"
+            app:angle="0"
+        />-->
+
+        <com.lightfire.gradienttextcolor.GradientTextView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/textView_hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:angle="0"
+            android:gravity="center_horizontal"
+            android:text="@string/hola"
+            android:textAppearance="@style/AppTheme.White"
+            android:textSize="20sp"
+            app:gradientEnd="@color/gr_p"
+            app:gradientStart="@color/gr_orange"
+        />
+
+        <!--<TextView
+            android:id="@+id/textView_hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/hola"
+            android:textSize="20sp"
+            android:textColor="#fff"/>-->
+
+        <TextView
+            android:id="@+id/textView_record_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/record_video"
+            android:textColor="@color/inActiveTextColor"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+    <ProgressBar android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:id="@+id/progress_circular"
+
+    />
+
+</RelativeLayout>

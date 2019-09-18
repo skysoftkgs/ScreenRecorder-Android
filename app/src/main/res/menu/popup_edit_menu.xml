@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_cut_video"
+        app:showAsAction="always"
+        android:title="@string/popup_menu_edit_cut"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_video_effect"
+        app:showAsAction="always"
+        android:title="@string/popup_menu_edit_effect"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_time_scaling"
+        app:showAsAction="always"
+        android:title="@string/popup_menu_edit_time_scaling"
+        android:visible="true"/>
+</menu>

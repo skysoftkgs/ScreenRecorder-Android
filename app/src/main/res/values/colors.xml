@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050505</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#349134</color>
+    <color name="colorSwitchThumbNormal">#888888</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="tabBackground">#0a0a0a</color>
+    <color name="inActiveTextColor">#333333</color>
+    <color name="selectedColor">#d0d0d0</color>
+    <color name="videoTitleColor">#cfcfcf</color>
+    <color name="videoSubtitleColor">#353535</color>
+    <color name="gr_p">#f0156a</color>
+    <color name="gr_orange">#fd5d10</color>
+</resources>
